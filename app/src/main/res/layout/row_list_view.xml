@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:id="@+id/textView1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre completo"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ciudad"
+        android:textColor="#353535"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView3"
+        />
+
+</LinearLayout>
